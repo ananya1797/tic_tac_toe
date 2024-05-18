@@ -37,7 +37,7 @@ function checkWinner() {
 
         if (pos1 !== "" && pos1 === pos2 && pos2 === pos3) {
             console.log("Winner");
-            el.innerText = `${pos1} wins!`;
+            el.innerText = `\n${pos1} wins!`;
             el.style.textAlign = "center";
             el.style.color = "white";
             result.before(el);
